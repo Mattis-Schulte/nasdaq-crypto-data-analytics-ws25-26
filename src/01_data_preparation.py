@@ -9,7 +9,7 @@ import yfinance as yf
 
 # ------------------ config ------------------
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("..", "data")
 RAW, OUT = DATA_DIR / "raw", DATA_DIR / "processed"
 OUT.mkdir(parents=True, exist_ok=True)
 
