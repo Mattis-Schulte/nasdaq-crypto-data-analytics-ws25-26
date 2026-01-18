@@ -1,3 +1,11 @@
-
-geopy
+numpy
+pandas
+matplotlib
+plotly
 folium
+geopy
+anywidget
+ipython
+ipywidgets
+scipy
+nbformat>=4.2.0
