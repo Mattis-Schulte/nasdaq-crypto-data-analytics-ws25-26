@@ -1,11 +1,12 @@
-numpy
-pandas
+numpy==2.4.1
+pandas==2.3.3
 matplotlib
-plotly
+plotly==6.5.0
 folium
 geopy
 anywidget
-ipython
-ipywidgets
+ipython==8.12.3
+ipywidgets==8.1.8
 scipy
+yfinance==0.2.66
 nbformat>=4.2.0
