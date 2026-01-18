@@ -26,7 +26,7 @@ Interpretation:
 
 - **rows:** 10,080,162  
 - **tickers:** 3,343  
-- **date range:** 2000-01-03 → 2025-12-31  
+- **date range:** 2000-01-03 -> 2025-12-31  
 - **base missing rows:** 689,974 (**6.845%**)  
 - **yfinance available rows:** 10,016,883 (**99.372%**)  
 - **outliers (any):** 1,262,459 (**12.524%**)  
@@ -69,7 +69,7 @@ The weekly time series shows:
 
 - **rows:** 228,553  
 - **tickers:** 105  
-- **range:** 2010-07-17 → 2025-12-12  
+- **range:** 2010-07-17 -> 2025-12-12  
 - **missing open/close:** 0%  
 - **max gap:** up to 806 days
 
@@ -143,7 +143,7 @@ The test plot (true vs predicted close) shows:
 ### (a) Ex-post prediction
 Uses *real* price history up to the last trading day before the target, via yfinance extension.
 
-- used date: 2026-01-16
+- used date: **2026-01-18**
 - predicted: **186.51**
 - true: **186.23**
 - relative error: **0.148%**
@@ -157,9 +157,7 @@ Interpretation:
 ### (b) Autoregressive multi-step forecast
 From a cutoff date, predict one day forward, append prediction, repeat.
 
-In the notebook's shown run:
-- cutoff: **2025-12-01**
-- target: **2026-01-16**
+Results for test range (cutoff 2025-12-01 to target 2026-01-16):
 - predicted: **181.31**
 - true: **186.23**
 - relative error: **2.64%**
