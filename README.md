@@ -1,3 +1,10 @@
+# Modularbeit DAT
+### von Mattis Schulte und Matthias Kranz
+
+
+
+# Task 4: Summary
+
 ## Task 1 — Data Findings & Quality Analysis
 
 ### Splits correction summary
@@ -95,6 +102,12 @@ Additionally, the QA reports show non-positive values in the final crypto datase
 
 ---
 
+## Task 2 - Data Analysis
+
+All results are written in the notebook
+
+---
+
 ## Task 3 — Model Building (Linear Regression for NVDA Next-Day Close)
 
 ## Feature design
@@ -188,3 +201,10 @@ The model ignores:
 - regime shifts
 
 So it cannot react to many real drivers of NVDA moves.
+
+---
+
+## Personal Experience
+It was very difficult at the beginning. We know just "the vocabular" from the lectures. But to use them in a bigger environment is much more difficult than we expected.  
+So we took very long for some tasks that felt really simple.
+But at the end, we settled well and could handle every excercise.
